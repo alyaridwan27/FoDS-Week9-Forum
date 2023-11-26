@@ -3,6 +3,7 @@
 
 ### 1. K-Means Clustering
 K-Means is a partitioning method that aims to partition n observations into k clusters. The algorithm iteratively assigns each data point to one of k clusters based on the mean of the data points.
+
 Result:
 
 Silhouette Score: 0.5711220218931753
@@ -17,6 +18,7 @@ The results suggest that the K-Means algorithm has identified clusters in the da
 
 ### 2. Means Shift Clustering
 Mean Shift is a non-parametric clustering algorithm used for identifying dense regions in a dataset. 
+
 Result:
 
 Silhouette Score: 0.5024822932496186
@@ -31,6 +33,7 @@ Mean Shift has produced clusters with a moderate level of cohesion and separatio
 
 ### 3. Agglomerative Clustering
 Agglomerative Clustering is a hierarchical, bottom-up clustering algorithm used for grouping similar data points into progressively larger clusters.
+
 Result:
 
 Silhouette Score: 0.5644632902637768
@@ -45,6 +48,7 @@ Agglomerative Clustering has produced clusters with a reasonable level of cohesi
 
 ### 4. Spectral Clustering
 Spectral Clustering is a technique for clustering data points based on the eigenvectors of a similarity matrix derived from the data. 
+
 Result:
 
 Silhouette Score: 0.28034429912294523
